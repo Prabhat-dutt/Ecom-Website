@@ -1,0 +1,97 @@
+/*Sass Template*/ /* global classess*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*font classess*/
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-baloo {
+  font-family: "Baloo", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*color template*/
+.color-primary {
+  color: #0055ff;
+}
+
+.color-primary-bg {
+  background-color: #0055ff;
+}
+
+.color-second {
+  color: #009266;
+}
+
+.color-second-bg {
+  background-color: #009266;
+}
+
+.color-yellow {
+  color: #f3df00;
+}
+
+.color-yellow-bg {
+  background-color: #f3df00;
+}
+
+/*top-sale template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  outline: none;
+  top: 30%;
+  display: block !important;
+  visibility: visible !important;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  color: #009266;
+  font-size: 35px;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  color: #009266;
+  font-size: 35px;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
