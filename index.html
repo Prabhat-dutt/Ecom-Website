@@ -35,12 +35,12 @@
     <!--Main Working Area-->
 
     <!--start #header-->
-    <header id="header">
+    <header id="header" class="sticky-top">
       <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
         <p class="font-poppins font-size-14 text-black-50 m-0">
          This is my first eCommerce website with backend support!
         </p>
-        <div class="font-montserrat font-size-14">
+        <div class="font-poppins font-size-14">
           <a href="" class="px-3 border-right border-left text-dark">Login</a>
           <a href="" class="px-3 border-right text-dark">Wishlist [0]</a>
         </div>
@@ -49,7 +49,7 @@
       <!--Primary navigation-->
       <nav class="navbar navbar-expand-lg navbar-dark color-primary-bg">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">ProdCom</a>
+          <a class="navbar-brand fw-bold font-poppins" href="#">ProdCom</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -83,7 +83,7 @@
                 <a class="nav-link" href="#">Coming Soon</a>
               </li>
             </ul>
-            <form action="#" class="font-size-14 font-montserrat">
+            <form action="#" class="font-size-14 font-montserrat py-2">
               <a href="#" class="rounded-pill py-2 color-second-bg">
                 <span class="font-size-16 px-2 text-white"
                   ><i class="fas fa-shopping-cart"></i
@@ -118,14 +118,13 @@
 
       <!--top sale section-->
       <section id="top-sale">
-        <div class="container py-5">
-          <h4 class="font-poppins font-size-20 fw-bold"><b>Top Sale</b></h4>
-          <hr>
+        <div class="container py-3 my-2 shadow rounded">
+          <h4 class="font-poppins font-size-20 fw-bold mx-2"><b>Top Sale</b></h4>
           <!--Owl Carousel for top sale-->
           <div class="owl-carousel owl-theme">
-                <div class="item py-2">
+                <div class="item py-2 card mx-1 my-1">
               <div class="product font-poppins">
-                <a href="#"><img src="assets/products/1.png" alt="product1"></a>
+                <a href="#" ><img src="assets/products/1.png" alt="product1" style="max-width:300px;margin:auto;"></a>
                 <div class="text-center">
                   <h6>Samsung Galaxy 10</h6>
                   <div class="rating text-warning font-size-12">
@@ -138,133 +137,10 @@
                   <div class="price py-2">
                     <span>$199</span>
                   </div>
-                  <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                  <button type="submit" class="btn btn-dark font-size-12 shadow fw-bold my-2 text-light">Add to cart</button>
                 </div>
               </div>
             </div>
-
-              
-                  <div class="item py-2">
-                <div class="product font-poppins">
-                  <a href="#"><img src="assets/products/2.png" alt="product1"></a>
-                  <div class="text-center">
-                    <h6>Oppo v98 Plus</h6>
-                    <div class="rating text-warning font-size-12">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="price py-2">
-                      <span>$199</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                  </div>
-                </div>
-              </div>
-
-
-                <div class="item py-2">
-                  <div class="product font-poppins">
-                    <a href="#"><img src="assets/products/3.png" alt="product1"></a>
-                    <div class="text-center">
-                      <h6>Apple Iphone 14</h6>
-                      <div class="rating text-warning font-size-12">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="far fa-star"></i></span>
-                      </div>
-                      <div class="price py-2">
-                        <span>$199</span>
-                      </div>
-                      <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                    </div>
-                  </div>
-                </div>
-
-
-              <div class="item py-2">
-                    <div class="product font-poppins">
-                      <a href="#"><img src="assets/products/4.png" alt="product1"></a>
-                      <div class="text-center">
-                        <h6>Redmi Note 10</h6>
-                        <div class="rating text-warning font-size-12">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="price py-2">
-                          <span>$199</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item py-2">
-                    <div class="product font-poppins">
-                      <a href="#"><img src="assets/products/4.png" alt="product1"></a>
-                      <div class="text-center">
-                        <h6>Redmi Note 10</h6>
-                        <div class="rating text-warning font-size-12">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="price py-2">
-                          <span>$199</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item py-2">
-                    <div class="product font-poppins">
-                      <a href="#"><img src="assets/products/4.png" alt="product1"></a>
-                      <div class="text-center">
-                        <h6>Redmi Note 10</h6>
-                        <div class="rating text-warning font-size-12">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="price py-2">
-                          <span>$199</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="item py-2">
-                    <div class="product font-poppins">
-                      <a href="#"><img src="assets/products/4.png" alt="product1"></a>
-                      <div class="text-center">
-                        <h6>Redmi Note 10</h6>
-                        <div class="rating text-warning font-size-12">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="price py-2">
-                          <span>$199</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
-                      </div>
-                    </div>
-                  </div>
 
                   
             </div>
@@ -273,6 +149,8 @@
         </div>
       </section>
       <!--top sale section-->
+
+    
     </main>
     <!--Main section-->
 
