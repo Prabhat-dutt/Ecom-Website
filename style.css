@@ -1,8 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,400&family=Poppins:wght@300;500;600&family=Ubuntu:wght@400;500;700&display=swap');
-
 /*Sass Template*/ /* global classess*/
-button, button:focus {
+button,
+button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -16,8 +14,8 @@ button, button:focus {
   font-family: "Poppins", sans-serif;
 }
 
-.font-baloo {
-  font-family: "Baloo", sans-serif;
+.font-ubuntu {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .font-size-12 {
@@ -70,31 +68,6 @@ button, button:focus {
 }
 #top-sale .owl-carousel .item .product img:hover {
   transform: scale(1.1);
-}
-#top-sale .owl-carousel .owl-nav button {
-  position: absolute;
-  outline: none;
-  top: 30%;
-  display: block !important;
-  visibility: visible !important;
-}
-#top-sale .owl-carousel .owl-nav button.owl-prev {
-  left: 0;
-}
-#top-sale .owl-carousel .owl-nav button.owl-prev span {
-  color: #009266;
-  font-size: 35px;
-  margin-left: -4rem;
-  padding: 0 1rem;
-}
-#top-sale .owl-carousel .owl-nav button.owl-next {
-  right: 0;
-}
-#top-sale .owl-carousel .owl-nav button.owl-next span {
-  color: #009266;
-  font-size: 35px;
-  margin-right: -4rem;
-  padding: 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
