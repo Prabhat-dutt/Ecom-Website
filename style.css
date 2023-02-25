@@ -1,6 +1,5 @@
 /*Sass Template*/ /* global classess*/
-button,
-button:focus {
+button, button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
