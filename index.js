@@ -61,4 +61,24 @@ $(document).ready(function () {
       },
     },
   });
+
+  //blogs carousel
+  $("#blogs .owl-carousel").owlCarousel({
+    loop: true,
+    dots: true,
+
+    responsive: {
+      0: {
+        items: 1,
+        autoplay: true,
+      },
+      600: {
+        items: 2,
+        autoplay: true,
+      },
+      800: {
+        items: 3,
+      },
+    },
+  });
 });
