@@ -36,6 +36,10 @@ button:focus {
   font-size: 20px;
 }
 
+.font-size-30 {
+  font-size: 30px;
+}
+
 /*color template*/
 .color-primary {
   color: #0055ff;
@@ -54,11 +58,11 @@ button:focus {
 }
 
 .color-yellow {
-  color: #f3df00;
+  color: #e4ab00;
 }
 
 .color-yellow-bg {
-  background-color: #f3df00;
+  background-color: #e4ab00;
 }
 
 /*top-sale template*/
