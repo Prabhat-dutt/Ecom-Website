@@ -89,10 +89,10 @@
                 ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="product.html">Products</a>
+                <a class="nav-link" href="product.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cart.html">Cart</a>
+                <a class="nav-link active" href="cart.html">Cart</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Coming Soon</a>
@@ -118,274 +118,214 @@
 
     <!--Main section-->
     <main id="main-site">
-      <!--Product-->
-      <section id="product" class="py-3">
-        <div class="container rounded shadow">
+      <!--shopping cart-->
+      <section id="cart" class="py-3">
+        <div class="container rounded shadow p-3">
+          <h5 class="font-poppins fw-bold font-size-20 mx-2">Shopping Cart</h5>
+
+          <!--shopping cart items-->
           <div class="row">
-            <div class="col-sm-6">
-              <img
-                src="assets/products/1.png"
-                alt="product-image"
-                class="img-fluid"
-              />
-              <div
-                class="form-row p-4 font-poppins font-size-16 d-flex flex-md-row flex-column"
-              >
-                <div class="col p-1">
+            <div class="col-sm-12 col-md-12 col-lg-9 mb-3">
+              <!--cart items-->
+              <div class="row shadow rounded py-3 mx-1 mt-3 d-flex">
+                <div
+                  class="col-3 col-md-2 col-xl-2 col-lg-2 d-flex justify-content-center px-0"
+                >
+                  <div class="card border-0">
+                    <img
+                      src="assets/products/2.png"
+                      alt="product image"
+                      style="width: 120px"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="font-poppins col-7 col-md-8 col-lg-7 col-xl-8">
+                  <h5 class="font-poppins fonnt-size-16 mb-0">Redmi Note 7S</h5>
+                  <small class="text-black-50">by Xiaomi</small>
+                  <div class="d-flex flex-wrap">
+                    <!--product rating-->
+                    <div
+                      class="rating text-warning font-size-12 pt-1"
+                      style="margin-right: 5px"
+                    >
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <a
+                      href="#"
+                      class="font-size-14 font-poppins pt-1 text-decoration-none color-second"
+                      >12,758 ratings</a
+                    >
+                  </div>
+                  <!--product rating-->
+                  <div class="qty d-flex pt-2 align-items-center">
+                    <div class="font-poppins d-flex">
+                      <button
+                        class="qty-up border-dark bg-dark text-white d-flex align-items-center"
+                        style="border-radius: 4px 0 0 4px"
+                      >
+                        <i class="fa fa-angle-up"></i>
+                      </button>
+                      <input
+                        type="text"
+                        class="qty-input border-dark px-2 bg-light text-center"
+                        style="width: 30%"
+                        value="1"
+                        placeholder="1"
+                        disabled
+                      />
+                      <button
+                        class="qty-down border-dark bg-dark text-white d-flex align-items-center"
+                        style="border-radius: 0 4px 4px 0"
+                      >
+                        <i class="fa fa-angle-down"></i>
+                      </button>
+                    </div>
+                  </div>
                   <button
                     type="submit"
-                    class="btn btn-outline-dark form-control"
+                    class="btn font-montserrat text-danger p-0 font-size-16 mt-2 fw-bold text-center rounded"
                   >
-                    Buy now
+                    Delete
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn font-montserrat color-yellow font-size-16 mt-2 fw-bold text-center rounded"
+                  >
+                    Save for later
                   </button>
                 </div>
-                <div class="col p-1">
-                  <button type="submit" class="btn btn-dark form-control">
-                    Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-sm-6 py-4 font-poppins">
-              <div class="card border-0 shadow rounded-lg m-2 p-3 p-lg-4">
-                <h5 class="font-poppins font-size-30 fw-bold mb-0">
-                  Samsung Galaxy S10
-                </h5>
-                <small class="text-black-50">by Samsung</small>
-                <div class="d-flex mt-2 flex-wrap">
-                  <div
-                    class="rating text-warning font-size-16"
-                    style="margin-right: 4px"
-                  >
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
-                  </div>
-                  <a href="#" class="mb-2 color-second text-decoration-none"
-                    >25,052 ratings | 1000+ recent orders</a
-                  >
-                </div>
-
-                <!--Product price-->
-                <div class="table-responsive">
-                  <table class="my-3 w-auto">
-                    <tr class="font-poppins font-size-16 fw-bold">
-                      <td>M.R.P.</td>
-                      <td class="px-2"><strike>$199.52</strike></td>
-                    </tr>
-                    <tr class="font-poppins font-size-16 fw-bold">
-                      <td>Offer Price</td>
-                      <td class="font-size-20 px-2 color-second">
-                        $<span>99.9</span
-                        ><small class="fw-normal text-black-50 font-size-14"
-                          >&nbsp;&nbsp;inclusive of all taxes</small
-                        >
-                      </td>
-                    </tr>
-                    <tr class="font-poppins font-size-16 fw-bold">
-                      <td>You Save</td>
-                      <td class="font-size-16 px-2 text-danger">
-                        $<span>100.52</span>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <!--Product price-->
-
-                <!--policy-->
-                <div id="policy">
-                  <div class="d-flex flex-wrap">
-                    <div class="return text-center mx-3">
-                      <div class="font-size-20 my-2 color-second">
-                        <span
-                          class="fas fa-truck border p-3 rounded rounded-pill"
-                        ></span>
-                      </div>
-                      <a
-                        href="#"
-                        class="font-poppins font-size-12 text-decoration-none text-dark"
-                        >2 Days<br />Delivery</a
-                      >
-                    </div>
-                    <div class="return text-center mr-3">
-                      <div class="font-size-20 my-2 color-second">
-                        <span
-                          class="fas fa-retweet border p-3 rounded rounded-pill"
-                        ></span>
-                      </div>
-                      <a
-                        href="#"
-                        class="font-poppins font-size-12 text-decoration-none text-dark"
-                        >10 Days<br />Replacement</a
-                      >
-                    </div>
-                    <div class="return text-center mx-3">
-                      <div class="font-size-20 my-2 color-second">
-                        <span
-                          class="fas fa-check-double border p-3 rounded rounded-pill"
-                        ></span>
-                      </div>
-                      <a
-                        href="#"
-                        class="font-poppins font-size-12 text-decoration-none text-dark"
-                        >1 Year<br />Warranty</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!--policy-->
-
-                <hr class="text-black-50" />
-                <!--order details-->
                 <div
-                  id="oeder-details"
-                  class="font-poppins d-flex flex-column text-dark"
+                  class="col-2 col-md-2 col-lg-3 color-second fw-bold font-size-20 font-poppins col-xl-2 px-2 px-md-3 m-0 d-flex justify-content-end align-items-start"
                 >
-                  <small>Delivery By: Feb 28 - Mar 3</small>
-                  <small class="py-2"
-                    >Sold By:<a
-                      href="#"
-                      class="font-poppins fw-semibold text-decoration-none color-second"
-                    >
-                      Prabhat Electronics</a
-                    >
-                    <span class="color-yellow"
-                      >(4.5 out of 5 | 12,799 reviews)</span
-                    ></small
-                  >
-                  <small
-                    ><i class="fas fa-map-marker-alt text-danger"></i>&nbsp
-                    Deliver to Prabhat - 814101</small
-                  >
+                  $<span class="product_price">199</span>
                 </div>
-                <!--order details-->
-
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12">
-                    <!--color-->
-                    <div class="color my-3 h-100 w-100">
-                      <div
-                        class="d-flex justify-content-start flex-wrap align-items-center rounded shadow-sm p-3"
-                      >
-                        <h6 class="font-montserrat fw-semibold m-0">Color:</h6>
-                        <div
-                          class="p-2 color-yellow-bg rounded-circle shadow-sm border mx-1"
-                        >
-                          <button
-                            class="btn font-size-14 outline-none border-0"
-                          ></button>
-                        </div>
-                        <div
-                          class="p-2 color-primary-bg rounded-circle shadow-sm border mx-1"
-                        >
-                          <button
-                            class="btn font-size-14 outline-none border-0"
-                          ></button>
-                        </div>
-                        <div
-                          class="p-2 color-second-bg rounded-circle shadow-sm border mx-1"
-                        >
-                          <button
-                            class="btn font-size-14 outline-none border-0"
-                          ></button>
-                        </div>
-                      </div>
-                    </div>
-                    <!--color-->
+              </div>
+              <div class="row shadow rounded py-3 mx-1 mt-3 d-flex">
+                <div
+                  class="col-3 col-md-2 col-xl-2 col-lg-2 d-flex justify-content-center px-0"
+                >
+                  <div class="card border-0">
+                    <img
+                      src="assets/products/3.png"
+                      alt="product image"
+                      style="width: 120px"
+                      class="img-fluid"
+                    />
                   </div>
-                  <div
-                    class="col-lg-6 col-sm-12 d-flex justify-content-start align-items-center"
-                  >
+                </div>
+                <div class="font-poppins col-7 col-md-8 col-lg-7 col-xl-8">
+                  <h5 class="font-poppins fonnt-size-16 mb-0">
+                    Samsung Galaxy S10
+                  </h5>
+                  <small class="text-black-50">by Samsung</small>
+                  <div class="d-flex flex-wrap">
+                    <!--product rating-->
                     <div
-                      class="my-3 h-100 w-100 d-flex justify-content-center align-items-center"
+                      class="rating text-warning font-size-12 pt-1"
+                      style="margin-right: 5px"
                     >
-                      <!--product qty section-->
-                      <div
-                        class="qty d-flex justify-content-start align-items-center rounded shadow-sm p-3 w-100"
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <a
+                      href="#"
+                      class="font-size-14 font-poppins pt-1 text-decoration-none color-second"
+                      >20,755 ratings</a
+                    >
+                  </div>
+                  <!--product rating-->
+                  <div class="qty d-flex pt-2 align-items-center">
+                    <div class="font-poppins d-flex">
+                      <button
+                        class="qty-up border-dark bg-dark text-white d-flex align-items-center"
+                        style="border-radius: 4px 0 0 4px"
                       >
-                        <h6 class="font-montserrat fw-semibold pt-1">Qty:</h6>
-                        <div class="px-4 font-poppins d-flex rounded">
-                          <button
-                            class="qty-up border-dark bg-dark text-white d-flex align-items-center"
-                            style="border-radius: 4px 0 0 4px"
-                          >
-                            <i class="fa fa-angle-up"></i>
-                          </button>
-                          <input
-                            type="text"
-                            class="qty-input border-dark px-2 bg-light text-center"
-                            style="width: 30%"
-                            value="1"
-                            placeholder="1"
-                            disabled
-                          />
-                          <button
-                            class="qty-down border-dark bg-dark text-white d-flex align-items-center"
-                            style="border-radius: 0 4px 4px 0"
-                          >
-                            <i class="fa fa-angle-down"></i>
-                          </button>
-                        </div>
-                      </div>
-                      <!--product qty section-->
+                        <i class="fa fa-angle-up"></i>
+                      </button>
+                      <input
+                        type="text"
+                        class="qty-input border-dark px-2 bg-light text-center"
+                        style="width: 30%"
+                        value="1"
+                        placeholder="1"
+                        disabled
+                      />
+                      <button
+                        class="qty-down border-dark bg-dark text-white d-flex align-items-center"
+                        style="border-radius: 0 4px 4px 0"
+                      >
+                        <i class="fa fa-angle-down"></i>
+                      </button>
                     </div>
                   </div>
+                  <button
+                    type="submit"
+                    class="btn font-montserrat text-danger p-0 font-size-16 mt-2 fw-bold text-center rounded"
+                  >
+                    Delete
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn font-montserrat color-yellow font-size-16 mt-2 fw-bold text-center rounded"
+                  >
+                    Save for later
+                  </button>
                 </div>
 
-                <!--size-->
-                <div class="size my-3 rounded border p-3">
-                  <h6 class="font-poppins fw-bold">Size:</h6>
-                  <div class="d-flex justify-content-between flex-wrap w-75">
-                    <div class="font-montserrat p-2">
-                      <button
-                        class="btn p-1 font-size-14 border-dark fw-bold mb-1"
-                      >
-                        4 GB Ram
-                      </button>
-                      <button
-                        class="btn p-1 font-size-14 border-dark fw-bold mb-1"
-                      >
-                        6 GB Ram
-                      </button>
-                      <button
-                        class="btn p-1 font-size-14 border-dark mb-1 fw-bold"
-                      >
-                        8 GB Ram
-                      </button>
-                    </div>
-                  </div>
+                <div
+                  class="col-2 col-md-2 col-lg-3 color-second fw-bold font-size-20 font-poppins col-xl-2 px-2 px-md-3 m-0 d-flex justify-content-end align-items-start"
+                >
+                  $<span class="product_price">152</span>
                 </div>
-                <!--size-->
+              </div>
+
+              <!--cart items-->
+            </div>
+
+            <!--sub total section-->
+            <div class="col-sm-12 col-md-12 col-lg-3 mt-lg-3">
+              <div class="sub-total text-center rounded shadow border p-2">
+                <h6 class="font-poppins font-size-14 fw-bold color-second">
+                  <i class="fas fa-check"></i>
+                  Your order is eligible for free delivery
+                </h6>
+                <div class="py-3 border">
+                  <h5 class="font-poppins font-size-16 fw-bold m-0">
+                    Subtotal (2 items)&nbsp;<span class="color-second"
+                      >$<span class="color-second" id="deal-price"
+                        >152.00</span
+                      ></span
+                    >span>
+                  </h5>
+                  <button
+                    class="color-yellow-bg text-white font-poppins font-size-16 fw-bold border-0 rounded mt-4 shadow p-2 px-3"
+                  >
+                    Proceed to buy
+                  </button>
+                </div>
               </div>
             </div>
+            <!--sub total section-->
           </div>
-          <div class="col-12 p-3 font-poppins">
-            <h6 class="fw-semibold">Product Description</h6>
-            <p class="font-size-14">
-              Samsung Galaxy S10 is a very advanced smartphone with features
-              like 15 Mb camera lenses and inbuilt snapdragon high processor
-              <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Delectus tenetur accusantium sed vitae amet magni, quia sit minus
-              aperiam. Distinctio modi commodi obcaecati, reprehenderit
-              dignissimos ducimus veniam tenetur voluptates corrupti repudiandae
-              explicabo deleniti incidunt beatae saepe. Veniam autem quae
-              quia?<br />loren25
-              <a href="#" class="color-second text-decoration-none"> more...</a>
-            </p>
-          </div>
+
+          <!--shopping cart items-->
         </div>
       </section>
-      <!--Product-->
+      <!--shopping cart-->
 
-      <!--top sale section-->
-      <section id="top-sale">
-        <div class="container py-3 my-2 shadow rounded">
-          <h4 class="font-poppins font-size-20 fw-bold mx-2">
-            <b>Top Sale</b>
-          </h4>
+      <!--New Phones section-->
+      <section id="new_phones">
+        <div class="container rounded shadow mt-1 py-3">
+          <h4 class="font-poppins font-size-20 mx-2"><b>New Phones</b></h4>
           <!--Owl Carousel for top sale-->
           <div class="owl-carousel owl-theme" style="overflow: hidden">
             <div class="item py-2 card mx-1 my-1 bg-light">
@@ -414,7 +354,6 @@
                 </div>
               </div>
             </div>
-
             <div class="item py-2 card mx-1 my-1 bg-light">
               <div class="product font-poppins">
                 <a href="#"
@@ -572,11 +511,10 @@
               </div>
             </div>
           </div>
-
-          <!--Owl Carousel for top sale-->
+          <!--Owl Carousel for new phones section-->
         </div>
       </section>
-      <!--top sale section-->
+      <!--new phones section-->
     </main>
     <!--Main section-->
 
